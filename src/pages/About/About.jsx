@@ -56,7 +56,7 @@ export default function  About() { {motion}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <ProfileImage src="/public/perfil.jpeg" alt="Fernando" />
+        <ProfileImage src="/perfil.jpeg" alt="Fernando" />
         <Title>Sobre Mim</Title>
         <Bio>
           Sou Fernando, desenvolvedor frontend apaixonado por criar interfaces

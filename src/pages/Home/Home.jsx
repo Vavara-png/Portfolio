@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <Container>
       <ProfileImage
-        src="/public/perfil.jpeg"
+        src="/perfil.jpeg"
         alt="Fernando"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

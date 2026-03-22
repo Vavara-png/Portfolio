@@ -162,7 +162,7 @@ export default function Skills() {
           whileHover={{ scale: 1.05 }}
         >
           <DiplomaImage
-            src="/public/java-back-end.png"
+            src="/java-back-end.png"
             alt="Back-end JAVA"
           />
           <DiplomaTitle>Curso Back-end em JAVA</DiplomaTitle>
