@@ -174,7 +174,7 @@ export default function Skills() {
           whileHover={{ scale: 1.05 }}
         >
           <DiplomaImage
-            src="/public/python-full-stack.png"
+            src="/python-full-stack.png"
             alt="Python Full Stack"
           />
           <DiplomaTitle>Curso Front-end e Back-end em Python</DiplomaTitle>
