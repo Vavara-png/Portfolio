@@ -27,7 +27,7 @@ export default function Projects() {
         title="Chat IA"
         description="Um site que simula um bate_papo com IA (Beta)"
         tech="Next.js, Styled Componet, workflows, API."
-        link="chat-ia-tan.vercel.app"
+        link="https://chat-ia-tan.vercel.app/"
       />
       <ProjectCard
         image="/projeto3.png"
