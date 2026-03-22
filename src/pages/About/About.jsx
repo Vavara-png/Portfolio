@@ -27,7 +27,7 @@ const Title = styled.h2`
 `;
 
 const Bio = styled.p`
-  max-width: 600px;
+  max-width: 800px;
   text-align: center;
   margin-bottom: 2rem;
   line-height: 1.6;
@@ -56,7 +56,7 @@ export default function  About() { {motion}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <ProfileImage src="/src/assets/perfil.jpeg" alt="Fernando" />
+        <ProfileImage src="/src/public/perfil.jpeg" alt="Fernando" />
         <Title>Sobre Mim</Title>
         <Bio>
           Sou Fernando, desenvolvedor frontend apaixonado por criar interfaces

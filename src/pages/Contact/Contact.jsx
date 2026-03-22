@@ -65,11 +65,11 @@ export default function Contact() {
     <Container>
       <Title>Entre em Contato</Title>
       <IconsGrid>
-        <FaLinkedin onClick={() => handleIconClick("/src/assets/likedin.png")} />
-        <FaWhatsapp onClick={() => handleIconClick("/src/assets/whatsapp.jpeg")} />
-        <FaFacebook onClick={() => handleIconClick("/src/assets/facebook.png")} />
-        <FaTelegram onClick={() => handleIconClick("/src/assets/telegram.jpeg")} />
-        <FaInstagram onClick={() => handleIconClick("/src/assets/instagram.jpeg")} />
+        <FaLinkedin onClick={() => handleIconClick("/src/public/likedin.png")} />
+        <FaWhatsapp onClick={() => handleIconClick("/src/public/whatsapp.jpeg")} />
+        <FaFacebook onClick={() => handleIconClick("/src/public/facebook.png")} />
+        <FaTelegram onClick={() => handleIconClick("/src/public/telegram.jpeg")} />
+        <FaInstagram onClick={() => handleIconClick("/src/public/instagram.jpeg")} />
       </IconsGrid>
 
       {popupImage && (
