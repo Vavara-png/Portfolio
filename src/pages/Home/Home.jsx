@@ -70,7 +70,7 @@ export default function Home() {
         Desenvolvedor Frontend | React | Node.js
       </Subtitle>
       <Button
-        href="/projects"
+        href="/Home/projects"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
