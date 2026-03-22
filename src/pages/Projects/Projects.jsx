@@ -16,21 +16,21 @@ export default function Projects() {
   return (
     <Container>
       <ProjectCard
-        image="/src/public/projeto1.png"
+        image="/public/projeto1.png"
         title="SIGGE"
         description="Sistema Inteligente de Gestão e Gerenciamento de estacionamento(Em desenvolvimento)"
         tech="React, Node.js, MongoDB, Python..."
         
       />
       <ProjectCard
-        image="/src/public/projeto2.png"
+        image="/public/projeto2.png"
         title="Chat IA"
         description="Um site que simula um bate_papo com IA (Beta)"
         tech="Next.js, Styled Componet, workflows, API."
         link="chat-ia-tan.vercel.app"
       />
       <ProjectCard
-        image="/src/public/projeto3.png"
+        image="/public/projeto3.png"
         title="Calculadora"
         description="Um joguinho de adivinhação"
         tech="HTML, CSS, JS"
