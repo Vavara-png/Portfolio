@@ -24,8 +24,8 @@ Aqui você encontrará meus principais projetos, habilidades e formas de contato
 
 ---
 
-## 🔧 Como Rodar Localmente
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/portfolio.git
+
+1. Acesse online no Vercel:
+
+ https://portfolio-6m8z-delta.vercel.app/
