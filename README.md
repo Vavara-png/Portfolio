@@ -19,7 +19,7 @@ Aqui você encontrará meus principais projetos, habilidades e formas de contato
 - **Sobre Mim:** apresentação, foto e contatos
 - **Projetos:** lista de projetos com descrição, tecnologias e links
 - **Habilidades:** principais tecnologias adquiridas
-- **Contato:** formulário funcional + redes sociais
+- **Contato:**  redes sociais
 
 ---
 
