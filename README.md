@@ -11,7 +11,6 @@ Aqui você encontrará meus principais projetos, habilidades e formas de contato
 - Framer Motion
 - React Router
 - React Icons
-- EmailJS (formulário de contato)
 
 ---
 
@@ -25,7 +24,24 @@ Aqui você encontrará meus principais projetos, habilidades e formas de contato
 ---
 
 
+1. O portfólio está publicado no Vercel:
 
-1. Acesse online no Vercel:
+ 👉 Acesse aqui https://portfolio-6m8z-delta.vercel.app/
 
- https://portfolio-6m8z-delta.vercel.app/
+
+## 🔧 Como rodar localmente
+2. Clone o repositório: [Github](https://github.com/Vavara-png/Portfolio.git)
+   ```bash
+
+Instale as dependências:
+
+bash
+npm install
+Rode o projeto em ambiente de desenvolvimento:
+
+bash
+npm run dev
+Acesse no navegador:
+
+Código porta:
+http://localhost:5173
