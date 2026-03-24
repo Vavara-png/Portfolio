@@ -26,14 +26,14 @@ export default function Projects() {
       <ProjectCard
         image="/projeto2.png"
         title="Chat IA"
-        description="Um site que simula um bate_papo com IA (Beta)"
+        description="Um site que simula um bate_papo com IA (Beta), prática de logica de API"
         tech="Next.js, Styled Componet, workflows, API."
         link="https://chat-ia-tan.vercel.app/"
       />
       <ProjectCard
         image="/projeto3.png"
-        title="Calculadora"
-        description="Um joguinho de adivinhação"
+        title="Jogo de Adivinhação"
+        description="Um joguinho de adivinhação na qual pratiquei js"
         tech="HTML, CSS, JS"
         link="https://github.com/Vavara-png/Jogo-de-Adivinha--o.git"
       />
