@@ -17,10 +17,10 @@ export default function Projects() {
     <Container>
       <ProjectCard
         image="/projeto1.png"
-        title="SIGGE"
-        description="Sistema Inteligente de Gestão e Gerenciamento de estacionamento(Em desenvolvimento)."
-        tech="React, Node.js, MongoDB, Python..."
-        link="https://github.com/Vavara-png/project.git"
+        title="Microfrontend"
+        description="O projeto utiliza arquitetura de Micro Frontends para organizar módulos independentes (Container, Cardápio e Pedido), permitindo escalabilidade, manutenção facilitada e integração futura com backend"
+        tech="React 18, Node.js, Webpack 5 + Module federations, Babel, CSS isolado por microfrontend "
+        link="https://github.com/Vavara-png/Microfrontend.git"
         
       />
       <ProjectCard
