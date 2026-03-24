@@ -18,7 +18,7 @@ export default function Projects() {
       <ProjectCard
         image="/projeto1.png"
         title="SIGGE"
-        description="Sistema Inteligente de Gestão e Gerenciamento de estacionamento(Em desenvolvimento)"
+        description="Sistema Inteligente de Gestão e Gerenciamento de estacionamento(Em desenvolvimento)."
         tech="React, Node.js, MongoDB, Python..."
         link="https://github.com/Vavara-png/project.git"
         
