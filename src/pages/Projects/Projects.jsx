@@ -20,6 +20,7 @@ export default function Projects() {
         title="SIGGE"
         description="Sistema Inteligente de Gestão e Gerenciamento de estacionamento(Em desenvolvimento)"
         tech="React, Node.js, MongoDB, Python..."
+        link="https://github.com/Vavara-png/project.git"
         
       />
       <ProjectCard
