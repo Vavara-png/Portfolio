@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
@@ -48,14 +49,14 @@ const IconLink = styled.a`
   }
 `;
 
-export default function  About() { {motion}
+export default function  About() { 
   return (
     <Container>
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-      >
+       >
         <ProfileImage src="/perfil.jpeg" alt="Fernando" />
         <Title>Sobre Mim</Title>
         <Bio>
@@ -65,7 +66,7 @@ export default function  About() { {motion}
           soluções digitais que encantem os usuários.
         </Bio>
         <Links>
-          <IconLink href="www.linkedin.com/in/fernando-oliveira-dev" target="_blank">
+          <IconLink href="https://www.linkedin.com/in/fernando-oliveira-dev" target="_blank">
             <FaLinkedin />
           </IconLink>
           <IconLink href="https://github.com/Vavara-png" target="_blank">

@@ -1,6 +1,6 @@
 // src/components/Header/Header.js
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -17,12 +17,17 @@ const Nav = styled.nav`
   z-index: 1000;
 `;
 
-const Logo = styled.h1`
+const Logo = styled(Link)`
   font-size: 1.8rem;
   font-weight: bold;
   color: #38bdf8;
   letter-spacing: 2px;
+  text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: #0ea5e9;
+  }
 `;
 
 const Menu = styled.div`
@@ -114,7 +119,8 @@ export default function Header() {
 
   return (
     <Nav>
-      <Logo>Portfólio</Logo>
+      <Logo to="/">Portfólio</Logo>
+
       <Menu>
         <StyledLink to="/" end>Home</StyledLink>
         <StyledLink to="/about">Sobre</StyledLink>
@@ -122,9 +128,11 @@ export default function Header() {
         <StyledLink to="/skills">Habilidades</StyledLink>
         <StyledLink to="/contact">Contato</StyledLink>
       </Menu>
+
       <Hamburger onClick={() => setOpen(!open)}>
         {open ? <FaTimes /> : <FaBars />}
       </Hamburger>
+
       <MobileMenu open={open}>
         <MobileLink to="/" end onClick={() => setOpen(false)}>Home</MobileLink>
         <MobileLink to="/about" onClick={() => setOpen(false)}>Sobre</MobileLink>
