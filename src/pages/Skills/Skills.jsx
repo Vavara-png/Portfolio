@@ -174,6 +174,18 @@ export default function Skills() {
           whileHover={{ scale: 1.05 }}
         >
           <DiplomaImage
+            src="/front-end.png"
+            alt="Front-end"
+          />
+          <DiplomaTitle>Curso Front-end</DiplomaTitle>
+        </DiplomaCard>
+        <DiplomaCard
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          whileHover={{ scale: 1.05 }}
+        >
+          <DiplomaImage
             src="/python-full-stack.png"
             alt="Python Full Stack"
           />

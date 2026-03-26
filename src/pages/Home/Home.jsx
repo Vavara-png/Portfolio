@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -32,7 +33,7 @@ const Subtitle = styled(motion.p)`
   margin-bottom: 2rem;
 `;
 
-const Button = styled(motion.a)`
+const Button = styled(motion(Link))`
   padding: 0.8rem 1.5rem;
   background: #38bdf8;
   color: #0f172a;
@@ -70,7 +71,7 @@ export default function Home() {
         Desenvolvedor Frontend | React | Node.js
       </Subtitle>
       <Button
-        href="/projects"
+        to="/projects"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
